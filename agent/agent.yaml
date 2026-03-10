@@ -1,0 +1,18 @@
+apiVersion: gitops.k8smgmt.io/v3
+kind: Agent
+metadata:
+  name: ag-gitsync-1
+  project: defaultproject
+spec:
+  agentType: ClusterAgent
+  version: r3.7.0
+  cluster:
+    name: c1-mks
+  config:
+    concurrency: 1
+    environment:
+      numWorkers: 2
+    kubernetes:
+      limits:
+        cpu: "1"
+        memory: "1Gi"
