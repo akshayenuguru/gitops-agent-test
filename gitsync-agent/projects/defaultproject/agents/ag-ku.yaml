@@ -4,16 +4,15 @@ metadata:
   name: ag-ku
   project: defaultproject
 spec:
-  active: true
   cluster:
     name: c1-mks
   config:
-    concurrency: 2
+    concurrency: 1
     environment:
-      numWorkers: 2
+      numWorkers: 1
     kubernetes:
       limits:
-        cpu: "2"
-        memory: 2Gi
+        cpu: "1"
+        memory: 1Gi
   type: Cluster
   version: r3.7.0
