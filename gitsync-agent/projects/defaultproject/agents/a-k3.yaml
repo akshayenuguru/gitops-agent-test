@@ -1,0 +1,19 @@
+apiVersion: gitops.k8smgmt.io/v3
+kind: Agent
+metadata:
+  name: a-k3
+  project: defaultproject
+spec:
+  active: true
+  cluster:
+    name: c1-mks
+  config:
+    concurrency: 1
+    environment:
+      numWorkers: 1
+    kubernetes:
+      limits:
+        cpu: "1"
+        memory: 1Gi
+  type: Cluster
+  version: r4.0.1
