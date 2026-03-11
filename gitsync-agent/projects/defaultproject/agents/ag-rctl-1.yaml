@@ -4,7 +4,6 @@ metadata:
   name: ag-rctl-1
   project: defaultproject
 spec:
-  active: true
   cluster:
     name: c1-mks
   config:
