@@ -4,7 +4,6 @@ metadata:
   name: a-k3
   project: defaultproject
 spec:
-  active: true
   cluster:
     name: c1-mks
   config:
@@ -12,4 +11,4 @@ spec:
     environment:
       numWorkers: 60
   type: Cluster
-  version: r4.0.0
+  version: r3.7.0
