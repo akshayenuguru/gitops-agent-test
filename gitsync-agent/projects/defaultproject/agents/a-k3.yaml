@@ -4,16 +4,11 @@ metadata:
   name: a-k3
   project: defaultproject
 spec:
-  active: true
   cluster:
     name: c1-mks
   config:
-    concurrency: 1
+    concurrency: 30
     environment:
-      numWorkers: 1
-    kubernetes:
-      limits:
-        cpu: "1"
-        memory: 1Gi
+      numWorkers: 5
   type: Cluster
   version: r4.0.1
