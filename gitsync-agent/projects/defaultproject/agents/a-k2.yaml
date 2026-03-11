@@ -1,0 +1,9 @@
+apiVersion: gitops.k8smgmt.io/v3
+kind: Agent
+metadata:
+  name: a-k2
+  project: defaultproject
+spec:
+  cluster:
+    name: c1-mks
+  type: Cluster
