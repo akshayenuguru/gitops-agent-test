@@ -8,8 +8,8 @@ spec:
   cluster:
     name: c1-mks
   config:
-    concurrency: 30
+    concurrency: 60
     environment:
-      numWorkers: 5
+      numWorkers: 60
   type: Cluster
-  version: r3.7.0
+  version: r4.0.0
