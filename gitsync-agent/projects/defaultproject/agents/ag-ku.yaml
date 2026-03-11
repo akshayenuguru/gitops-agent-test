@@ -1,0 +1,19 @@
+apiVersion: gitops.k8smgmt.io/v3
+kind: Agent
+metadata:
+  name: ag-ku
+  project: defaultproject
+spec:
+  active: true
+  cluster:
+    name: c1-mks
+  config:
+    concurrency: 2
+    environment:
+      numWorkers: 2
+    kubernetes:
+      limits:
+        cpu: "2"
+        memory: 2Gi
+  type: Cluster
+  version: r3.7.0
