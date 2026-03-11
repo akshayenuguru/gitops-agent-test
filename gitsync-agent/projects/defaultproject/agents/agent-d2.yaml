@@ -6,12 +6,6 @@ metadata:
 spec:
   active: true
   config:
-    concurrency: 50
-    docker:
-      limits:
-        cpu: "1"
-        memory: 1Gi
-    environment:
-      numWorkers: 20
+    environment: {}
   type: Docker
-  version: r4.0.0
+  version: r4.0.1
