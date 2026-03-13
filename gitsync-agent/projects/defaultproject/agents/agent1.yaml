@@ -8,4 +8,4 @@ spec:
   cluster:
     name: c1-mks
   type: Cluster
-  version: r4.0.0
+  version: r4.0.1
