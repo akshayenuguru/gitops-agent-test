@@ -1,17 +1,16 @@
 apiVersion: gitops.k8smgmt.io/v3
 kind: Agent
 metadata:
-  name: agent-d2
+  name: agent-docker
   project: defaultproject
 spec:
-  active: true
   config:
-    concurrency: 66
+    concurrency: 50
     docker:
       limits:
-        cpu: "600"
+        cpu: "250"
         memory: 1Gi
     environment:
-      numWorkers: 16
+      numWorkers: 10
   type: Docker
-  version: r4.0.1
+  version: r4.0.0
