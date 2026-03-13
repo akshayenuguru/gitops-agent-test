@@ -6,4 +6,4 @@ metadata:
 spec:
   active: true
   type: Docker
-  version: r4.0.1
+  version: r3.7.0
