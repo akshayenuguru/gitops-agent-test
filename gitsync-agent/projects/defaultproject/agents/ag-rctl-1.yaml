@@ -4,6 +4,7 @@ metadata:
   name: ag-rctl-1
   project: defaultproject
 spec:
+  active: true
   cluster:
     name: c1-mks
   config:
@@ -15,4 +16,4 @@ spec:
         cpu: "10"
         memory: 1Gi
   type: Cluster
-  version: r3.7.0
+  version: r4.0.0
