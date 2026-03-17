@@ -1,0 +1,10 @@
+apiVersion: gitops.k8smgmt.io/v3
+kind: AgentPool
+metadata:
+  name: ap1
+  project: defaultproject
+spec:
+  agents:
+  - agent1
+  - k8s-agent
+  - ad1
