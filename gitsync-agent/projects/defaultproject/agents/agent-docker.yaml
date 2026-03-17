@@ -4,6 +4,5 @@ metadata:
   name: agent-docker
   project: defaultproject
 spec:
-  active: true
   type: Docker
   version: r3.7.0
