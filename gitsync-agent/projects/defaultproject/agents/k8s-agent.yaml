@@ -4,6 +4,7 @@ metadata:
   name: k8s-agent
   project: defaultproject
 spec:
+  active: true
   cluster:
     name: my-cluster
   config:
@@ -15,4 +16,4 @@ spec:
         cpu: 255m
         memory: 2Gi
   type: Cluster
-  version: r4.0.1
+  version: r3.7.0
