@@ -7,5 +7,13 @@ spec:
   active: true
   cluster:
     name: c1-mks
+  config:
+    concurrency: 55
+    environment:
+      numWorkers: 15
+    kubernetes:
+      limits:
+        cpu: 255m
+        memory: 2Gi
   type: Cluster
-  version: r4.0.1
+  version: r3.7.0
