@@ -4,5 +4,6 @@ metadata:
   name: ad1
   project: defaultproject
 spec:
+  active: true
   type: Docker
   version: r3.7.0
