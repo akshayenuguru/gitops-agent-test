@@ -4,8 +4,15 @@ metadata:
   name: k8s-agent
   project: defaultproject
 spec:
-  active: true
   cluster:
     name: my-cluster
+  config:
+    concurrency: 55
+    environment:
+      numWorkers: 15
+    kubernetes:
+      limits:
+        cpu: 255m
+        memory: 2Gi
   type: Cluster
   version: r4.0.1
