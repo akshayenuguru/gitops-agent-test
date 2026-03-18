@@ -5,7 +5,7 @@ metadata:
   project: akshay
 spec:
   agents:
-  - name: a-k-1
+  - name: doc-1
   credentials:
     password: sealed://credentials.password
     username: akshay@rafay.co
