@@ -8,4 +8,4 @@ spec:
   cluster:
     name: akshay-mks1
   type: Cluster
-  version: r4.0.1
+  version: r3.7.0
