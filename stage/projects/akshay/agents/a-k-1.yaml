@@ -4,7 +4,8 @@ metadata:
   name: a-k-1
   project: akshay
 spec:
+  active: true
   cluster:
     name: akshay-mks1
   type: Cluster
-  version: r3.7.0
+  version: r4.0.1
