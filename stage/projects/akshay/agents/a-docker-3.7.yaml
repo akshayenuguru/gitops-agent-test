@@ -1,9 +1,0 @@
-apiVersion: gitops.k8smgmt.io/v3
-kind: Agent
-metadata:
-  name: a-docker-3.7
-  project: akshay
-spec:
-  active: true
-  type: Docker
-  version: r3.7.0
