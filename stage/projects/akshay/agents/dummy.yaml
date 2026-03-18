@@ -5,4 +5,4 @@ metadata:
   project: akshay
 spec:
   type: Docker
-  version: r3.7.0
+  version: r4.0.1
