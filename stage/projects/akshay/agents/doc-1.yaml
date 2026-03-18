@@ -4,7 +4,6 @@ metadata:
   name: doc-1
   project: akshay
 spec:
-  active: true
   config:
     concurrency: 55
     docker:
