@@ -1,0 +1,8 @@
+apiVersion: gitops.k8smgmt.io/v3
+kind: Agent
+metadata:
+  name: prod-agent-ak-4
+  project: akshay-2
+spec:
+  type: Docker
+  version: r4.1.0
