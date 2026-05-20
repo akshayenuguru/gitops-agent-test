@@ -4,6 +4,5 @@ metadata:
   name: prod-agent-ak-2
   project: akshay-2
 spec:
-  active: true
   type: Docker
   version: r4.1.1
